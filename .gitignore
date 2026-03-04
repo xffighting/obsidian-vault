@@ -1,0 +1,51 @@
+# Obsidian 系统文件
+.obsidian/
+.trash/
+*.log
+
+# 敏感文件
+*.json
+*.token
+*.key
+*secret*
+*password*
+*credential*
+*.env
+*.env.*
+token*
+*api_key*
+*app_secret*
+
+# 同步相关（可能包含敏感信息）
+笔记同步助手/
+待处理/
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS 文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PowerShell脚本（可能包含敏感信息）
+*.ps1
+*.psm1
+
+# 排除整个脚本目录（检查后手动添加需要的）
+incremental.ps1
+增量提取.ps1
+提取知识库.ps1
+*.json
+
+# OpenClaw配置目录
+OpenClaw配置/
+
+# 排除可能的敏感数据
+README.md
+学习规划.md
+资源索引.md
+项目规划.md
